@@ -173,7 +173,7 @@ span {
 }
 
 .about-content p {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 2rem 0 3rem;
 }
 
@@ -324,10 +324,12 @@ span {
 }
 
 .projects_layer h4 {
+  color: white;
   font-size: 3rem;
 }
 
 .projects_layer p {
+  color: black;
   font-size: 1.6rem;
   margin: 0.3rem 0 1rem;
 }
@@ -501,5 +503,8 @@ span {
   .projects_container {
     display: flex;
     flex-direction: column;
+  }
+  .skills_info {
+    grid-template-columns: auto;
   }
 }
